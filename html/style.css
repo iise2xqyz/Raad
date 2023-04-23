@@ -1,0 +1,40 @@
+body, h1, p {
+margin: 0;
+padding: 0;
+}
+
+h1 {
+	color: #FFFFFF
+}
+
+header, div#main, nav, footer {
+padding: 8px;
+}
+
+header {
+position: relative;
+width: 100%;
+min-height: 30vh;
+background: url("./picture/header.jpeg")
+	center / cover;
+}
+
+div#content {
+background-color: #99cc33;
+width: 780px;
+overflow: hidden;
+}
+
+div#text {
+background-color: #ffffff;
+padding-left: 20px;
+width: 584px;
+float: right;
+}
+
+nav {
+color: #339933;
+background-color: #99cc33;
+width: 144px;
+float: left;
+}
